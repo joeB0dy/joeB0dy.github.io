@@ -1,0 +1,11 @@
+- name: Astro Deploy (Remastered)
+  # You may pin to the exact commit or the version.
+  # uses: SecondThundeR/action@eb7c7da2220bd140310edcdc9dc53a1e96e0bc56
+  uses: SecondThundeR/action@v0.2.0
+  with:
+    # Path of the directory containing your site
+    path: # optional, default is .
+    # The node version to use
+    node-version: # optional, default is 16
+    # If not automatically detectable, you may specify your preferred package manager
+    package-manager: # optional, default is 
